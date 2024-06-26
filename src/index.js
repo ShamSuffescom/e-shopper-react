@@ -4,6 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import $ from 'jquery';
+
+// import .css
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+
+import 'jquery/dist/jquery.min.js'; // Ensure jQuery is imported
+
+import './assets/css/style.css';
+ 
+// import .js
+import 'bootstrap/js/dist/tooltip.js';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
