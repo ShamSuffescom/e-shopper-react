@@ -23,14 +23,14 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
 // import CategoriesNavbar from './CategoriesNavbar';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Footer from './Footer';
 
 const Layout = () => {
   return (
     <div>
       <Header />
-      <Navbar/>
+      {/* <Navbar/> */}
       <main>
         <Outlet />
       </main>

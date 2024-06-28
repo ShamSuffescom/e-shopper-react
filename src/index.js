@@ -4,13 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import $ from 'jquery';
-
 // import .css
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import 'jquery/dist/jquery.min.js'; // Ensure jQuery is imported
+// import 'jquery/dist/jquery.min.js'; // Ensure jQuery is imported
 
 import './assets/css/style.css';
  

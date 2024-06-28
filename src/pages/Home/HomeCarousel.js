@@ -2,6 +2,8 @@
 import React from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselCaption } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import carousel1 from '../../assets/img/carousel-1.jpg';
+import carousel2 from '../../assets/img/carousel-2.jpg';
 
 class HomeCarousel extends React.Component {
   constructor(props) {
@@ -10,14 +12,14 @@ class HomeCarousel extends React.Component {
       activeIndex: 0,
       items: [
         {
-          src: 'img/carousel-1.jpg',
+          src: carousel1,
           altText: 'Fashionable Dress',
           captionTitle: '10% Off Your First Order',
           captionSubtitle: 'Fashionable Dress',
           buttonLabel: 'Shop Now'
         },
         {
-          src: 'img/carousel-2.jpg',
+          src: carousel2,
           altText: 'Reasonable Price',
           captionTitle: '10% Off Your First Order',
           captionSubtitle: 'Reasonable Price',
